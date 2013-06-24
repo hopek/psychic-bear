@@ -39,7 +39,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	}
 	
 	private void tmpMethod() {
-		
+		int a = 0;
 	}
 
 }
