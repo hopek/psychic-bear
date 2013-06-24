@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity implements OnClickListener {
 
@@ -35,6 +36,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	public void onClick(View v) {
 		if (v.getId() == R.id.button1) {
 			mTextView.setText(new BigInteger(130, new SecureRandom()).toString(32));
+			Toast.makeText(this, "Button clicked", Toast.LENGTH_SHORT).show();
 		}
 	}
 	
