@@ -37,9 +37,5 @@ public class MainActivity extends Activity implements OnClickListener {
 			mTextView.setText(new BigInteger(130, new SecureRandom()).toString(32));
 		}
 	}
-	
-	private void tmpMethod() {
-		int a = 0;
-	}
 
 }
