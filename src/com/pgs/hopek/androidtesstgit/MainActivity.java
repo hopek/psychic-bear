@@ -39,9 +39,5 @@ public class MainActivity extends Activity implements OnClickListener {
 			Toast.makeText(this, "Button clicked", Toast.LENGTH_SHORT).show();
 		}
 	}
-	
-	private void tmpMethod() {
-		int a = 0;
-	}
 
 }
