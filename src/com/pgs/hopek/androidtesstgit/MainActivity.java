@@ -22,7 +22,8 @@ public class MainActivity extends Activity implements OnClickListener {
 		setContentView(R.layout.activity_main);
 		((Button) findViewById(R.id.button1)).setOnClickListener(this);
 		mTextView = (TextView) findViewById(R.id.textView1);
-				
+		((Button) findViewById(R.id.button2)).setOnClickListener(this);
+		
 	}
 
 	@Override
@@ -37,6 +38,8 @@ public class MainActivity extends Activity implements OnClickListener {
 		if (v.getId() == R.id.button1) {
 			mTextView.setText(new BigInteger(130, new SecureRandom()).toString(32));
 			Toast.makeText(this, "Button clicked", Toast.LENGTH_SHORT).show();
+		} else if (v.getId() == R.id.button2) {
+			mTextView.setText(null);
 		}
 	}
 
