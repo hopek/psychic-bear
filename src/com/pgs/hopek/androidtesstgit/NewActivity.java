@@ -11,4 +11,7 @@ public class NewActivity extends Activity {
 		setContentView(R.layout.activity_new);
 	}
 
+	private void methodOne() {
+		
+	}
 }
