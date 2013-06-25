@@ -14,7 +14,6 @@ public class NewActivity extends Activity {
 	private void tmpMethod() {
 		int a = 0;
 		int b = a;
-		int c = b - a;
-		int d = c * 3;
+		int z = b * a + 56;
 	}
 }
