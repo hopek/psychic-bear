@@ -24,5 +24,6 @@ public class NewActivity extends Activity {
 	private void conflictMethod02() {
 		int b = 4;
 		int z = b + 98;
+		int f = z - b / 56;
 	}
 }
