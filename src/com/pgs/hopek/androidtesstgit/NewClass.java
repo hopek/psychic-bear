@@ -14,5 +14,7 @@ public class NewClass {
 	
 	private void conflictMethod01() {
 		int a = 234;
+		int newV2 = 456;
+		a --;
 	}
 }
