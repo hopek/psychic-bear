@@ -8,4 +8,7 @@ public class NewClass {
 		INITIAL_VALUE = 456;
 	}
 
+	private void setInitialValue(int newValue) {
+		INITIAL_VALUE = newValue;
+	}
 }
