@@ -4,7 +4,6 @@ import java.math.BigInteger;
 import java.security.SecureRandom;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -24,7 +23,6 @@ public class MainActivity extends Activity implements OnClickListener {
 		((Button) findViewById(R.id.button1)).setOnClickListener(this);
 		mTextView = (TextView) findViewById(R.id.textView1);
 		((Button) findViewById(R.id.button2)).setOnClickListener(this);
-		((Button) findViewById(R.id.button3)).setOnClickListener(this);
 		
 	}
 
@@ -42,8 +40,6 @@ public class MainActivity extends Activity implements OnClickListener {
 			Toast.makeText(this, "Button clicked", Toast.LENGTH_SHORT).show();
 		} else if (v.getId() == R.id.button2) {
 			mTextView.setText(null);
-		} else if (v.getId() == R.id.button3) {
-			startActivity(new Intent(this, NewActivity.class));
 		}
 	}
 
