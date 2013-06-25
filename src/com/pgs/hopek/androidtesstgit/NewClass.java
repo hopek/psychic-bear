@@ -11,4 +11,8 @@ public class NewClass {
 	private void setInitialValue(int newValue) {
 		INITIAL_VALUE = newValue;
 	}
+	
+	private void conflictMethod01() {
+		int a = 234;
+	}
 }
