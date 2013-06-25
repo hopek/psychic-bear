@@ -12,6 +12,6 @@ public class NewActivity extends Activity {
 	}
 
 	private void tmpMethod() {
-		
+		int a = 0;
 	}
 }
