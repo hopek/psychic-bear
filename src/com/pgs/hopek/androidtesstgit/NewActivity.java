@@ -15,5 +15,6 @@ public class NewActivity extends Activity {
 		int a = 0;
 		int b = a;
 		int c = b - a;
+		int d = c * 3;
 	}
 }
