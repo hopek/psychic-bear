@@ -20,4 +20,9 @@ public class NewActivity extends Activity {
 		int z = b * a + 56;
 		int asd = 34321;
 	}
+	
+	private void conflictMethod02() {
+		int b = 4;
+		int z = b + 98;
+	}
 }
