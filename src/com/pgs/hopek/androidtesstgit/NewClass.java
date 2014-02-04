@@ -16,5 +16,6 @@ public class NewClass {
 		int a = 234;
 		int newV2 = 456;
 		a --;
+		int z = a + 89;
 	}
 }
